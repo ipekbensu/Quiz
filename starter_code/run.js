@@ -165,4 +165,3 @@ console.log(response);
 var num = '3';
 var response = exercise.getNumberOfZipCodesWith(payroll,num);
 console.log(response);
-
