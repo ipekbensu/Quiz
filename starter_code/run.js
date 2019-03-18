@@ -43,7 +43,7 @@ console.log(response);
 //   QUESTION 06
 //   Return the third element of array
 // ----------------------------------------
-var myArray = ['ana',18,'pong',29,'sport'];
+var myArray = ['ana', 18, 'pong', 29, 'sport'];
 var response = exercise.thirdElement(myArray);
 console.log(response);
 
@@ -55,7 +55,7 @@ console.log(response);
 var string1 = '01';
 var string2 = '02';
 var string3 = '03';
-var response = exercise.concatenate(string1,string2,string3);
+var response = exercise.concatenate(string1, string2, string3);
 console.log(response);
 
 // ----------------------------------------
@@ -63,7 +63,7 @@ console.log(response);
 //   Filter array for values greater than 6 
 //   Return the filtered array
 // ----------------------------------------
-var myArray = [-10,5,0,-2,10,7,3,9,6];
+var myArray = [-10, 5, 0, -2, 10, 7, 3, 9, 6];
 var response = exercise.greaterThanSix(myArray);
 console.log(response);
 
@@ -77,11 +77,11 @@ console.log(response);
 //     ['peter','bruce','clark','diana']
 // ----------------------------------------
 var people = [
-		{name:'peter', age:18},
-		{name:'bruce', age:22},
-		{name:'clark', age:25},
-		{name:'diana', age:29}
-	];
+	{name:'peter', age:18},
+	{name:'bruce', age:22},
+	{name:'clark', age:25},
+	{name:'diana', age:29}
+];
 var response = exercise.getNames(people);
 console.log(response);
 
@@ -95,11 +95,11 @@ console.log(response);
 //     10000
 // ----------------------------------------
 var people = [
-		{name:'peter', salary:1000},
-		{name:'bruce', salary:2000},
-		{name:'clark', salary:3000},
-		{name:'diana', salary:4000}
-	];
+	{name:'peter', salary:1000},
+	{name:'bruce', salary:2000},
+	{name:'clark', salary:3000},
+	{name:'diana', salary:4000}
+];
 var response = exercise.getSalaryTotal(people);
 console.log(response);
 
@@ -109,7 +109,7 @@ console.log(response);
 //   return the sorted array.
 //   Ascending or descenging.
 // ----------------------------------------
-var myArray = [-10,5,0,-2,10,7,3,9,6];
+var myArray = [-10, 5, 0, -2, 10, 7, 3, 9, 6];
 var response = exercise.sortNumbers(myArray);
 console.log(response);
 
@@ -154,7 +154,7 @@ console.log(response);
 //   earnings above target
 // ----------------------------------------
 var target = 84000;
-var response = exercise.getEarningsAbove(payroll,target);
+var response = exercise.getEarningsAbove(payroll, target);
 console.log(response);
 
 // ----------------------------------------
@@ -163,5 +163,5 @@ console.log(response);
 //   with 'num' anywhere in them
 // ----------------------------------------
 var num = '3';
-var response = exercise.getNumberOfZipCodesWith(payroll,num);
+var response = exercise.getNumberOfZipCodesWith(payroll, num);
 console.log(response);
